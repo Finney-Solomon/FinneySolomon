@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/FinneySolomon/static/css/main.9fa7922d.css",
+    "main.js": "/FinneySolomon/static/js/main.ca5b193a.js",
+    "static/js/787.a135b36d.chunk.js": "/FinneySolomon/static/js/787.a135b36d.chunk.js",
+    "static/media/mainBackgroudImage.jpg": "/FinneySolomon/static/media/mainBackgroudImage.17c27016059707a9079f.jpg",
+    "static/media/restApi.png": "/FinneySolomon/static/media/restApi.c5618b6df35050c50c2e.png",
+    "static/media/postgre.png": "/FinneySolomon/static/media/postgre.a7fa39912c91e079e90b.png",
+    "static/media/postman.jpg": "/FinneySolomon/static/media/postman.e9e20e06ee3ceecd5249.jpg",
+    "static/media/react.png": "/FinneySolomon/static/media/react.809fed23bcdd686de66e.png",
+    "static/media/gitHub.png": "/FinneySolomon/static/media/gitHub.3b82e95800bf49ef18af.png",
+    "static/media/c-sharp.png": "/FinneySolomon/static/media/c-sharp.4a32f53d425c7ad4cb05.png",
+    "static/media/node-js.png": "/FinneySolomon/static/media/node-js.e328955d6bbbf3ebc72b.png",
+    "static/media/c-.png": "/FinneySolomon/static/media/c-.24a8f93854ab092f17a7.png",
+    "static/media/mui.png": "/FinneySolomon/static/media/mui.5b2d8a0a309d9f7d47c1.png",
+    "static/media/json-file.png": "/FinneySolomon/static/media/json-file.bc73d93a5b55cf5644df.png",
+    "static/media/figma.png": "/FinneySolomon/static/media/figma.72fbc535ebe253a5dbc4.png",
+    "static/media/html.png": "/FinneySolomon/static/media/html.6e930594286d8afe4c79.png",
+    "static/media/photoshop.png": "/FinneySolomon/static/media/photoshop.339f174c692e921a204a.png",
+    "static/media/css-3.png": "/FinneySolomon/static/media/css-3.463e319bad8e0edf1ef7.png",
+    "static/media/bootstrap.png": "/FinneySolomon/static/media/bootstrap.268c4375260420e8d982.png",
+    "static/media/js.png": "/FinneySolomon/static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/web.png": "/FinneySolomon/static/media/web.2536a1c477020b5180b3.png",
+    "index.html": "/FinneySolomon/index.html",
+    "main.9fa7922d.css.map": "/FinneySolomon/static/css/main.9fa7922d.css.map",
+    "main.ca5b193a.js.map": "/FinneySolomon/static/js/main.ca5b193a.js.map",
+    "787.a135b36d.chunk.js.map": "/FinneySolomon/static/js/787.a135b36d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9fa7922d.css",
+    "static/js/main.ca5b193a.js"
+  ]
+}
