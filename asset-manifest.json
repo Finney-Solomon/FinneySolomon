@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/FinneySolomon/static/css/main.54ca5f5e.css",
-    "main.js": "/FinneySolomon/static/js/main.ca5b193a.js",
+    "main.css": "/FinneySolomon/static/css/main.9b280c26.css",
+    "main.js": "/FinneySolomon/static/js/main.62367df0.js",
     "static/js/787.a135b36d.chunk.js": "/FinneySolomon/static/js/787.a135b36d.chunk.js",
     "static/media/mainBackgroudImage.jpg": "/FinneySolomon/static/media/mainBackgroudImage.17c27016059707a9079f.jpg",
     "static/media/restApi.png": "/FinneySolomon/static/media/restApi.c5618b6df35050c50c2e.png",
@@ -22,12 +22,12 @@
     "static/media/js.png": "/FinneySolomon/static/media/js.3dfb665e058d08c99f28.png",
     "static/media/web.png": "/FinneySolomon/static/media/web.2536a1c477020b5180b3.png",
     "index.html": "/FinneySolomon/index.html",
-    "main.54ca5f5e.css.map": "/FinneySolomon/static/css/main.54ca5f5e.css.map",
-    "main.ca5b193a.js.map": "/FinneySolomon/static/js/main.ca5b193a.js.map",
+    "main.9b280c26.css.map": "/FinneySolomon/static/css/main.9b280c26.css.map",
+    "main.62367df0.js.map": "/FinneySolomon/static/js/main.62367df0.js.map",
     "787.a135b36d.chunk.js.map": "/FinneySolomon/static/js/787.a135b36d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.54ca5f5e.css",
-    "static/js/main.ca5b193a.js"
+    "static/css/main.9b280c26.css",
+    "static/js/main.62367df0.js"
   ]
 }
