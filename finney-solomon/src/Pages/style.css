@@ -1,10 +1,32 @@
 /* For screens smaller than 768px (e.g., mobile devices) */
 @media (max-width: 767px) {
+  /* for Mobile View */
+  /**
+        **Wallpaper #Homepage
+        */
+
   .wallpaper-container {
+    background-size: cover;
+  }
+
+  .homepage {
+    width: 100%;
+
+    text-align: end;
+
+  }
+
+  .homepage h1 {
+    font-size: 24px;
+
+  }
+
+  /* .wallpaper-container {
     background-size: cover;
     height: 90vh;
     width: 100vw;
-  }
+  } */
+
   .skill-card {
     overflow: visible;
     padding: 0.05em;
@@ -13,11 +35,8 @@
     width: 1em;
     height: 1em;
     flex-shrink: 0;
-    /* min-height: 22vh;
-    min-width: 10vw;  */
-    /* Corrected typo from 10vm to 10vw */
   }
-  
+
   .skill-image {
     object-fit: fill;
     border-radius: var(--units-unit-0, 1em);
@@ -26,26 +45,156 @@
     justify-content: center;
     align-items: center;
   }
-  
-.skills-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  /* Adjust as needed for responsiveness */
-  gap: 4rem;
 
-  margin: 20px;
-  /* Add more grid styling if necessary */
-}
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 4rem;
+
+    margin: 20px;
+  }
+
+  /**
+  **Wallpaper #Homepage
+  */
+  /* /******************************************************************************* */
+  /**
+  **About me Container
+  */
+  .head h1 {
+    margin: auto;
+    color: rgb(255, 210, 167);
+    justify-items: center;
+    font-size: 2.5em;
+    margin-top: 5vh;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+
+  .about-details h3 {
+    margin: auto;
+    justify-items: center;
+    font-size: 1.3em;
+    margin-top: 2vh;
+    color: gainsboro;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .about-details span {
+    margin: auto;
+    justify-items: center;
+    font-size: 1.2em;
+    color: bisque;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+
+  .about-details p {
+    margin: auto;
+    justify-items: left;
+    font-size: 1em;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 10px;
+    color: gainsboro;
+    margin-left: 12vw;
+    margin-right: 12vw;
+  }
+
+  /**
+    **About me Container
+    */
+  /* /******************************************************************************* */
+  /**
+    **Skills Container
+    */
+
+  .heading {
+    margin: auto;
+    color: rgb(255, 210, 167);
+    justify-items: center;
+    font-size: 2.5em;
+    margin-top: 5vh;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .details {
+    color: #bc8941;
+    padding: 2% 0%;
+    border-bottom: solid #fff 2px;
+    width: 90%;
+    font-size: 1.6em;
+    margin: auto;
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }
+
+
+  /* /******************************************************************************* */
+
+  .skills--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+  }
+
+  .tabs-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 500px;
+  }
 }
 
+/* /******************************************************************************* */
 /* For screens larger than 768px (e.g., laptops and desktops) */
 @media (min-width: 768px) {
+
+  /**
+    **Wallpaper #Homepage
+    */
+  .wallpaper-container {
+    height: 91.5vh;
+  }
+
+  .homepage {
+    width: 60vw;
+    text-align: end;
+    /* padding: 50px; */
+  }
+
+  .homepage h1 {
+    font-size: 36px;
+  }
+
+  .homepage p {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+
+  /* Add a padding around the content to avoid being too close to the edges */
+  .homepage>* {
+    padding: 10px;
+  }
+
   .wallpaper-container {
     background-size: cover;
     height: 50vh;
     width: 100vw;
     /* Adjust the height for larger screens */
   }
+
+  /**
+      **Wallpaper #Homepage
+      */
+  /* /******************************************************************************* */
   .skill-card {
     overflow: visible;
     padding: 0.5rem;
@@ -54,11 +203,8 @@
     width: 8em;
     height: 8em;
     flex-shrink: 0;
-    /* min-height: 22vh;
-    min-width: 10vw;  */
-    /* Corrected typo from 10vm to 10vw */
   }
-  
+
   .skill-image {
     object-fit: fill;
     border-radius: var(--units-unit-0, 8em);
@@ -67,16 +213,197 @@
     justify-content: center;
     align-items: center;
   }
-  
-.skills-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  /* Adjust as needed for responsiveness */
-  gap: 4rem;
 
-  margin: 20px;
-  /* Add more grid styling if necessary */
-}
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* Adjust as needed for responsiveness */
+    gap: 4rem;
+
+    margin: 20px;
+    /* Add more grid styling if necessary */
+  }
+
+
+
+  .homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    /* height: 100%; */
+    width: 100vw;
+    margin: auto;
+    margin-top: 26vh;
+    text-align: justify;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+
+  }
+
+
+  /* Styles for the welcome message */
+  .homepage h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  /* Styles for the description */
+  .homepage p {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+
+  .homepage::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.5); Adjust the transparency as needed */
+  }
+
+
+
+  /* /******************************************************************************* */
+
+
+  /**
+        **About me Container
+    */
+  .head h1 {
+    margin: auto;
+    color: bisque;
+    justify-items: center;
+    font-size: 4em;
+    margin-top: 10vh;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+
+  .about-details h3 {
+    margin: auto;
+    justify-items: center;
+    font-size: 1.6em;
+    margin-top: 2vh;
+    color: gainsboro;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .about-details span {
+    margin: auto;
+    justify-items: center;
+    font-size: 1.6em;
+    color: bisque;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+
+  .about-details p {
+    margin: auto;
+    justify-items: left;
+    font-size: 1.8em;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 10px;
+    color: gainsboro;
+    margin-left: 12vw;
+    margin-right: 12vw;
+  }
+
+  /**
+       **About me Container
+  */
+
+
+  /* /******************************************************************************* */
+
+
+  /**
+      **Skills Container
+  */
+
+  .heading {
+    margin: auto;
+    color: bisque;
+    justify-items: center;
+    font-size: 3em;
+    margin-top: 5vh;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .heading-details {
+    color: #bc8941;
+    padding: 2% 0%;
+    justify-items: center;
+    text-align: center;
+    border-bottom: solid #fff 2px;
+    width: 90%;
+    margin: auto;
+    font-size: 1.6em;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }
+
+  .skills--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .skills-card {
+    width: 70vw;
+    height: 53vh;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 19px 38px rgba(82, 82, 82, 0.3), 0 15px 12px rgba(107, 107, 107, 0.22);
+
+  }
+
+  .skill-card {
+    overflow: visible;
+    padding: 0.5rem;
+    background-color: rgb(213, 252, 255);
+    border-radius: 100%;
+    width: 8em;
+    height: 8em;
+    flex-shrink: 0;
+
+  }
+
+  .skill-image {
+    object-fit: fill;
+    border-radius: var(--units-unit-0, 8em);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* /******************************************************************************* */
+
+
+  .certification-card {
+    width: 70vw;
+    height: 60vh;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 19px 38px rgba(82, 82, 82, 0.3), 0 15px 12px rgba(107, 107, 107, 0.22);
+
+  }
+
 }
 
 .wallpaper-container {
@@ -86,7 +413,7 @@
   background-repeat: no-repeat;
   width: 98.8vw;
   height: 91.5vh
-  /* Adjust the height to fit the viewport */
+    /* Adjust the height to fit the viewport */
 }
 
 .homepage {
@@ -95,7 +422,7 @@
   align-items: end;
   justify-content: end;
   /* height: 100%; */
-  width: 100vw;
+  width: 99vw;
   margin: auto;
   margin-top: 26vh;
   text-align: justify;
@@ -137,59 +464,13 @@
 }
 
 .button-container {
-  opacity: 50;
+  opacity: 5;
   transition: opacity 5s ease;
   /* Set the transition property to achieve the fade-in effect */
 }
 
 .fade-in {
-  opacity: 50;
-}
-
-/* For screens smaller than 768px (e.g., mobile devices) */
-@media (max-width: 767px) {
-  .wallpaper-container {
-    background-size: cover;
-  }
-
-  .homepage {
-    width: 100%;
-    /* Adjust to fit the viewport */
-    text-align: end;
-    /* Center text on small screens */
-  }
-
-  .homepage h1 {
-    font-size: 24px;
-    /* Decrease font size for smaller screens */
-  }
-}
-
-/* For screens larger than 768px (e.g., laptops and desktops) */
-@media (min-width: 768px) {
-  .wallpaper-container {
-    height: 91.5vh;
-  }
-
-  .homepage {
-    width: 60vw;
-    text-align: end;
-    /* padding: 50px; */
-  }
-
-  .homepage h1 {
-    font-size: 36px;
-  }
-
-  .homepage p {
-    font-size: 20px;
-    margin-bottom: 12px;
-  }
-
-  /* Add a padding around the content to avoid being too close to the edges */
-  .homepage>* {
-    padding: 10px;
-  }
+  opacity: 5;
 }
 
 /* Styles for the button container */
@@ -221,57 +502,12 @@
   max-width: 70vw;
 }
 
-.details{ 
+.details {
   margin-left: 12vw;
   margin-right: 12vw;
 }
 
-.head h1 {
-  margin: auto;
-  color:rgb(255, 210, 167);
-  justify-items: center;
-  font-size: 2.5em;
-  margin-top: 10vh;
-  text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 
-
-.details h3 {
-  margin: auto;
-  justify-items: center;
-  font-size: 1.8em;
-  margin-top: 2vh;
-  color: gainsboro;
-  text-align: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.details span {
-  margin: auto;
-  justify-items: center;
-  font-size: 1.2em;
-  color: bisque;
-  text-align: center;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-}
-.details p {
-  margin: auto;
-  justify-items: center;
-  font-size: 1.6em;
-  text-align: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  padding-bottom: 10px;
-  color: gainsboro;
-}
-
-.about-me-container p {
-  font-size: 18px;
-  line-height: 1.6;
-
-  margin-bottom: 12px;
-  display: flex;
-}
 
 .center {
   margin: auto;
@@ -279,6 +515,20 @@
   justify-items: center;
   text-align: center;
 }
+
+.skills-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.tabs-list {
+  width: 100%;
+}
+
+.skills-card {
+  margin-top: 20px;
+}
+
 
 /* style.css */
 
@@ -289,45 +539,8 @@
   justify-content: space-around;
 }
 
-.skills-heading {
-  color: #fff;
-  width: 90%;
 
-  margin: auto;
-  text-align: center;
-  font-weight: 900;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
-}
-
-.skills-p {
-  color: #bc8941;
-  padding: 2% 0%;
-  border-bottom: solid #fff 2px;
-  width: 90%;
-  margin: auto;
-  text-align: center;
-  font-weight: 900;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-}
-
-.skills-tab-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /* width: 70vw;
-  height: 60vh; */
-  /* Add more styling if necessary */
-}
-
-.skills-card {
-  /* width: 70vw;
-  height: 60vh; */
-  margin: auto;
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
 
 
 
@@ -340,9 +553,7 @@
   width: 8em;
   height: 8em;
   flex-shrink: 0;
-  /* min-height: 22vh;
-  min-width: 10vw;  */
-  /* Corrected typo from 10vm to 10vw */
+
 }
 
 .skill-image {
@@ -382,41 +593,32 @@
 
 .contact-me-card {
   width: 65vw;
-  /* max-width: 700px; Adjust the max-width as needed */
+
   margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); Add a subtle shadow */
-  border-radius: 10px;
+
 }
 
-.form-container {
+
+.contact-details-grid {
+  display: grid;
+  grid-template-columns: auto 3fr;
+  gap: 10px;
+}
+
+.contact-detail {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 1rem;
-  width: 100%;
-  max-width: 600px;
-  padding: 10px;
-  box-sizing: border-box;
-  /* Include padding in width calculation */
 }
 
-.name-inputs {
-  display: flex;
-  gap: 1rem;
-  width: 100%;
-  max-width: 100%;
+.label {
+  font-weight: bold;
+  margin-right: 10px;
 }
 
-/* Add responsive styles */
-@media (max-width: 768px) {
-  .name-inputs {
-    flex-direction: column;
-  }
+.info {
+  margin: 0;
 }
-
-
-/*About me*/
