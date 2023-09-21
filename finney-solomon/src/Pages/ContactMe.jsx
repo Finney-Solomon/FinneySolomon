@@ -17,20 +17,21 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 
 export const ContactMe = () => {
   return (
-    <div className="certification-container">
+    <div >
       <h2 className="heading">Contact Me</h2>
       <p className="heading-details">
         I am always looking for opportunities to grow and learn. If you have any
         questions or comments, Feel free to reach out to me anytime...
       </p>
       <br />
-      <div className=" flex gap-4">
+      <div className=" flex-col gap-8 sm:flex-row justify-center ">
         <Code
           color="default"
           size="lg"
           onClick={() =>
             navigator.clipboard.writeText("finney.solomon.1@gmail.com")
           }
+          className="contact-Code animate-drip-expand  "
         >
           Email: finney.solomon.1@gmail.com
         </Code>
@@ -38,10 +39,12 @@ export const ContactMe = () => {
           color="default"
           size="lg"
           onClick={() => navigator.clipboard.writeText("9059875310")}
+          className="contact-Code animate-drip-expand  "
         >
           Phone: (+91) 90598-75310
         </Code>
-        <Code color="default" size="lg">
+      
+        <Code color="default" size="lg"  className="contact-Code  animate-drip-expand my-4">
           Address: Andhra Pradesh, India
         </Code>
       </div>

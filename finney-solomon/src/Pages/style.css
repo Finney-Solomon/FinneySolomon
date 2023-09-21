@@ -27,32 +27,56 @@
     width: 100vw;
   } */
 
-  .skill-card {
+  /* .skill-card {
     overflow: visible;
     padding: 0.05em;
     background-color: beige;
     border-radius: 100%;
-    width: 1em;
-    height: 1em;
+    width: 0.6em;
+    height: 0.6em;
     flex-shrink: 0;
+  } */
+  .skills-card {
+    width: 50vw;
+    margin: auto;
+    margin: auto;
+    /* box-shadow: 0 19px 38px rgba(82, 82, 82, 0.3), 0 15px 12px rgba(107, 107, 107, 0.22); */
+
   }
 
   .skill-image {
     object-fit: fill;
-    border-radius: var(--units-unit-0, 1em);
+    border-radius: var(--units-unit-0, 0.6em);
+    width: 10vw;
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    justify-items: center;
+    border: #fff 2px;
+    border-radius: 10px;
+  }
+  .cardFooter {
+    text-align: center;
+    justify-items: center;
+    color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    
+    font-weight: bolder;
+    font-size: 0.6em;
+    
   }
 
   .skills-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 0.6fr);
+    text-align: center;
+    justify-items: center;
+    gap: 1rem;
 
-    gap: 4rem;
-
-    margin: 20px;
+    margin: auto;
   }
 
   /**
@@ -122,18 +146,19 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
-  .details {
+  .heading-details {
     color: #bc8941;
     padding: 2% 0%;
     border-bottom: solid #fff 2px;
     width: 90%;
-    font-size: 1.6em;
+    font-size: 1em;
     margin: auto;
     text-align: center;
     font-weight: 900;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
   }
+ 
 
 
   /* /******************************************************************************* */
@@ -151,6 +176,41 @@
     justify-content: space-between;
     height: 500px;
   }
+
+
+  /* /******************************************************************************* */
+
+
+ /**
+     **Contact Me
+  */
+
+.contact-me-card {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-details-grid {
+  display: grid;
+  grid-template-columns:  1fr;
+align-items: center;
+gap: 8;
+}
+
+.contact-Code {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+ 
+  margin: auto;
+  
+  grid-auto-rows: 10;
+  width: 88vw;
+}
 }
 
 /* /******************************************************************************* */
@@ -391,8 +451,14 @@
     align-items: center;
   }
 
+   /**
+      **Skills Container
+  */
   /* /******************************************************************************* */
 
+   /**
+      **Certification
+  */
 
   .certification-card {
     width: 70vw;
@@ -403,6 +469,34 @@
     box-shadow: 0 19px 38px rgba(82, 82, 82, 0.3), 0 15px 12px rgba(107, 107, 107, 0.22);
 
   }
+
+     /**
+      **Certification
+  */
+  /* /******************************************************************************* */
+
+   /**
+      **Contact Me
+  */
+
+.contact-me-card {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-details-grid {
+  display: grid;
+  grid-template-columns: auto 3fr;
+  gap: 10px;
+}
+
+.contact-detail {
+  display: flex;
+  align-items: center;
+}
 
 }
 
@@ -526,7 +620,7 @@
 }
 
 .skills-card {
-  margin-top: 20px;
+  margin: 20px;
 }
 
 
@@ -565,16 +659,7 @@
   align-items: center;
 }
 
-.cardFooter {
-  text-align: center;
-  justify-items: center;
-  color: antiquewhite;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin: auto;
-  font-weight: bolder;
-  font-size: larger;
-  margin-top: 20px;
-}
+
 
 .text {
   font: optional;
@@ -592,8 +677,6 @@
 }
 
 .contact-me-card {
-  width: 65vw;
-
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -614,11 +697,3 @@
   align-items: center;
 }
 
-.label {
-  font-weight: bold;
-  margin-right: 10px;
-}
-
-.info {
-  margin: 0;
-}
