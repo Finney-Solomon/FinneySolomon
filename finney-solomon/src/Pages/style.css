@@ -2,40 +2,65 @@
 @media (max-width: 767px) {
   /* for Mobile View */
   /**
-        **Wallpaper #Homepage
-        */
+  **Wallpaper #Homepage
+  */
+        .wallpaper-container {
+          background-image: url('../images/mainBackgroudImage.jpg');
+          background-size: cover;
+          background-position:-62vw  center;
+          background-repeat: no-repeat;
+          width: 98.8vw;
+          height: 91.5vh;
+        }
 
-  .wallpaper-container {
-    background-size: cover;
-  }
+        .homepage {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          width: 99vw;
+          margin: auto;
+          margin-top: 12vh;
+          text-align: justify;
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          color: #fff;
+        
+        }
+        
+        
+        /* Styles for the welcome message */
+        .homepage h1 {
+          font-size: 20px;
+          font-weight: bold;
+          margin-bottom: 20px;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        } 
+        
+        /* Styles for the description */
+        .homepage p {
+          font-size: 20px;
+          margin-bottom: 50px;
+        }
+        
+        .homepage::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          /* background-color: rgba(0, 0, 0, 0.5); Adjust the transparency as needed */
+        }
+        
+        /* Add a padding around the content to avoid being too close to the edges */
+        .homepage>* {
+          padding: 10px;
+        }
+        
 
-  .homepage {
-    width: 100%;
-
-    text-align: end;
-
-  }
-
-  .homepage h1 {
-    font-size: 24px;
-
-  }
-
-  /* .wallpaper-container {
-    background-size: cover;
-    height: 90vh;
-    width: 100vw;
-  } */
-
-  /* .skill-card {
-    overflow: visible;
-    padding: 0.05em;
-    background-color: beige;
-    border-radius: 100%;
-    width: 0.6em;
-    height: 0.6em;
-    flex-shrink: 0;
-  } */
+  
   .skills-card {
     width: 50vw;
     margin: auto;
@@ -216,40 +241,64 @@ gap: 8;
 /* /******************************************************************************* */
 /* For screens larger than 768px (e.g., laptops and desktops) */
 @media (min-width: 768px) {
-
-  /**
-    **Wallpaper #Homepage
-    */
   .wallpaper-container {
-    height: 91.5vh;
+    background-image: url('../images/mainBackgroudImage.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 98.8vw;
+    height: 91.5vh
+      /* Adjust the height to fit the viewport */
   }
+
 
   .homepage {
-    width: 60vw;
-    text-align: end;
-    /* padding: 50px; */
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    width: 98.8vw;
+    width: 99vw;
+    margin: auto;
+    margin-top: 26vh;
+    text-align: justify;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+  
   }
-
+  
+  
+  /* Styles for the welcome message */
   .homepage h1 {
     font-size: 36px;
-  }
-
+    font-weight: bold;
+    margin-bottom: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  } 
+  
+  /* Styles for the description */
   .homepage p {
     font-size: 20px;
     margin-bottom: 12px;
   }
-
+  
+  .homepage::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.5); Adjust the transparency as needed */
+  }
+  
   /* Add a padding around the content to avoid being too close to the edges */
   .homepage>* {
     padding: 10px;
   }
-
-  .wallpaper-container {
-    background-size: cover;
-    height: 50vh;
-    width: 100vw;
-    /* Adjust the height for larger screens */
-  }
+  
 
   /**
       **Wallpaper #Homepage
@@ -283,52 +332,6 @@ gap: 8;
     margin: 20px;
     /* Add more grid styling if necessary */
   }
-
-
-
-  .homepage {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: end;
-    /* height: 100%; */
-    width: 100vw;
-    margin: auto;
-    margin-top: 26vh;
-    text-align: justify;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: #fff;
-
-  }
-
-
-  /* Styles for the welcome message */
-  .homepage h1 {
-    font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 16px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
-
-  /* Styles for the description */
-  .homepage p {
-    font-size: 20px;
-    margin-bottom: 12px;
-  }
-
-  .homepage::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    /* background-color: rgba(0, 0, 0, 0.5); Adjust the transparency as needed */
-  }
-
-
 
   /* /******************************************************************************* */
 
@@ -498,64 +501,22 @@ gap: 8;
   align-items: center;
 }
 
-}
-
-.wallpaper-container {
-  background-image: url('../images/mainBackgroudImage.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 98.8vw;
-  height: 91.5vh
-    /* Adjust the height to fit the viewport */
-}
-
-.homepage {
-  display: flex;
-  flex-direction: column;
-  align-items: end;
-  justify-content: end;
-  /* height: 100%; */
-  width: 99vw;
+.contact-div {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
   margin: auto;
-  margin-top: 26vh;
-  text-align: justify;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: #fff;
-
 }
 
 
-/* Styles for the welcome message */
-.homepage h1 {
-  font-size: 36px;
-  font-weight: bold;
-  margin-bottom: 16px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.contact-Code {
+ margin-left: 20spx;
+  margin: auto;
+  left: 10px;
+  margin-right: 20px;
+}
 }
 
-/* Styles for the description */
-.homepage p {
-  font-size: 20px;
-  margin-bottom: 12px;
-}
-
-.homepage::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  /* background-color: rgba(0, 0, 0, 0.5); Adjust the transparency as needed */
-}
-
-/* Add a padding around the content to avoid being too close to the edges */
-.homepage>* {
-  padding: 10px;
-}
 
 .button-container {
   opacity: 5;

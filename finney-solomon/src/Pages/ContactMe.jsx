@@ -24,7 +24,7 @@ export const ContactMe = () => {
         questions or comments, Feel free to reach out to me anytime...
       </p>
       <br />
-      <div className=" flex-col gap-8 sm:flex-row justify-center ">
+      <div className=" contact-div flex-col gap-8 sm:flex-row justify-center ">
         <Code
           color="default"
           size="lg"

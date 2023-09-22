@@ -27,8 +27,7 @@ console.log(isMobileView,"isMobileView")
         <div className="skills-container">
             <h2 className="heading">Skills</h2>
             <p className="heading-details">
-                "Committed to growth, I eagerly embrace new challenges. I'll learn and
-                return prepared"
+                "Committed to growth, I eagerly embrace new challenges. I'll learn and return prepared"
             </p>
             <br />
             <div className="skills-tab-container">

@@ -22,14 +22,14 @@ export const HomePage = () => {
               .pauseFor(1000)
               .typeString("<br/> This is Finney Solomon")
               .pauseFor(1000)
-              .typeString("<br/>I'm a Full Stack Developer...")
+              .typeString("<br/>A Full Stack Developer...")
               .start();
             
           }}
         /></h1>
         {open ? <div c className={`button-container ${open ? 'fade-in flex gap-4 items-center' : ''}`}>
-          <Button color="primary">About me</Button>
-          <Button>Connect</Button>
+          {/* <Button color="primary">About me</Button>
+          <Button>Connect</Button> */}
         </div> : null}
       </div>
     </div>

@@ -7,10 +7,13 @@ import {
   NavbarMenu,
   NavbarMenuItem,
   NavbarContent,
+  NavbarBrand,
+  Avatar,
 } from '@nextui-org/react';
 
+import logo from "../images/Logo.png"
 export const Header = () => {
-  // ... (Existing code)
+  
   const menuItems = [
     "Home",
     "About Me",
@@ -47,20 +50,22 @@ export const Header = () => {
   }, []);
   return (
     <Navbar disableAnimation isBordered justify="end">
-      {/* Common NavbarContent for both mobile and desktop */}
-      {/* <NavbarContent className="sm:visible pr-3" justify="center">
+   
+   {/* Common NavbarContent for both mobile and desktop */}
+      <NavbarContent className="sm:visible " >
         <NavbarBrand>
-          <p className="font-bold text-inherit">ACME</p>
+        <Avatar src={logo}  radius="full"  size="md" className="justify-start items-start" name="Finney's Portfolio" /> <p className="text-inherit mr-8px size-14px" > __Finney's Portfolio__</p>
         </NavbarBrand>
-      </NavbarContent> */}
-
+      </NavbarContent>
       {/* Mobile View */}
-      {isMobileView && (
-        <>
-          <NavbarContent className="sm:visible" justify="start">
-            <NavbarMenuToggle onClick={toggleMobileMenu} />
-          </NavbarContent>
-          <div className="sm:hidden">
+      {/* {isMobileView && (
+        <> */}
+          {/* <NavbarContent className="sm:visible" justify="start">
+            <NavbarMenuToggle
+            //  onClick={toggleMobileMenu}
+             />
+          </NavbarContent> */}
+          {/* <div className="sm:hidden">
             <NavbarMenu open={isMobileMenuOpen} onClose={closeMobileMenu}>
               {menuItems.map((item, index) => (
                 <NavbarMenuItem key={`${item}-${index}`}>
@@ -81,16 +86,14 @@ export const Header = () => {
                 </NavbarMenuItem>
               ))}
             </NavbarMenu>
-          </div>
-        </>
-      )}
+          </div> */}
+        {/* </>
+      )} */}
 
       {/* Desktop View */}
-      {!isMobileView && (
+      {/* {!isMobileView && (
         <NavbarContent className="visible lg:flex gap-4" justify="end">
-          {/* <NavbarBrand>
-            <p className="font-bold text-inherit">ACME</p>
-          </NavbarBrand> */}
+        
           <NavbarItem>
             <Link color="warning" href="#">
               Home
@@ -112,7 +115,7 @@ export const Header = () => {
             </Link>
           </NavbarItem>
         </NavbarContent>
-      )}
+      )} */}
 
       {/* Common NavbarContent for both mobile and desktop */}
       {/* <NavbarContent justify="end">
