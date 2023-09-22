@@ -17,7 +17,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 
 export const ContactMe = () => {
   return (
-    <div >
+    <div>
       <h2 className="heading">Contact Me</h2>
       <p className="heading-details">
         I am always looking for opportunities to grow and learn. If you have any
@@ -29,7 +29,9 @@ export const ContactMe = () => {
           color="default"
           size="lg"
           onClick={() =>
-            navigator.clipboard.writeText("finney.solomon.1@gmail.com")
+            window.open(
+              `https://mail.google.com/mail/?view=cm&fs=1&to=finney.solomon.1@gmail.com`
+            )
           }
           className="contact-Code animate-drip-expand  "
         >
@@ -43,8 +45,12 @@ export const ContactMe = () => {
         >
           Phone: (+91) 90598-75310
         </Code>
-      
-        <Code color="default" size="lg"  className="contact-Code  animate-drip-expand my-4">
+
+        <Code
+          color="default"
+          size="lg"
+          className="contact-Code  animate-drip-expand my-4"
+        >
           Address: Andhra Pradesh, India
         </Code>
       </div>
