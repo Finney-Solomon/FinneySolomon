@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/FinneySolomon/static/css/main.9b280c26.css",
-    "main.js": "/FinneySolomon/static/js/main.62367df0.js",
+    "main.css": "/FinneySolomon/static/css/main.d70dbd90.css",
+    "main.js": "/FinneySolomon/static/js/main.82e065f6.js",
     "static/js/787.a135b36d.chunk.js": "/FinneySolomon/static/js/787.a135b36d.chunk.js",
     "static/media/mainBackgroudImage.jpg": "/FinneySolomon/static/media/mainBackgroudImage.17c27016059707a9079f.jpg",
     "static/media/restApi.png": "/FinneySolomon/static/media/restApi.c5618b6df35050c50c2e.png",
@@ -12,6 +12,7 @@
     "static/media/c-sharp.png": "/FinneySolomon/static/media/c-sharp.4a32f53d425c7ad4cb05.png",
     "static/media/node-js.png": "/FinneySolomon/static/media/node-js.e328955d6bbbf3ebc72b.png",
     "static/media/c-.png": "/FinneySolomon/static/media/c-.24a8f93854ab092f17a7.png",
+    "static/media/Logo.png": "/FinneySolomon/static/media/Logo.5b3b438a9ad8b320b916.png",
     "static/media/mui.png": "/FinneySolomon/static/media/mui.5b2d8a0a309d9f7d47c1.png",
     "static/media/json-file.png": "/FinneySolomon/static/media/json-file.bc73d93a5b55cf5644df.png",
     "static/media/figma.png": "/FinneySolomon/static/media/figma.72fbc535ebe253a5dbc4.png",
@@ -22,12 +23,12 @@
     "static/media/js.png": "/FinneySolomon/static/media/js.3dfb665e058d08c99f28.png",
     "static/media/web.png": "/FinneySolomon/static/media/web.2536a1c477020b5180b3.png",
     "index.html": "/FinneySolomon/index.html",
-    "main.9b280c26.css.map": "/FinneySolomon/static/css/main.9b280c26.css.map",
-    "main.62367df0.js.map": "/FinneySolomon/static/js/main.62367df0.js.map",
+    "main.d70dbd90.css.map": "/FinneySolomon/static/css/main.d70dbd90.css.map",
+    "main.82e065f6.js.map": "/FinneySolomon/static/js/main.82e065f6.js.map",
     "787.a135b36d.chunk.js.map": "/FinneySolomon/static/js/787.a135b36d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b280c26.css",
-    "static/js/main.62367df0.js"
+    "static/css/main.d70dbd90.css",
+    "static/js/main.82e065f6.js"
   ]
 }
