@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import { Button, Card, CardBody, CardFooter, Image } from "@nextui-org/react";
+import { Button, Card, CardBody, Image } from "@nextui-org/react";
 export const Certifications = () => {
   return (
     <div className="certification-container">

@@ -1,19 +1,11 @@
 import { IconButton } from "@mui/material";
-import {
-  Button,
-  Card,
-  CardHeader,
-  Chip,
-  Code,
-  Input,
-  Textarea,
-} from "@nextui-org/react";
 import React, { useState } from "react";
 import "./style.css";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
+import { Call, Mail } from "@mui/icons-material";
 
 export const ContactMe = () => {
   return (
@@ -24,7 +16,7 @@ export const ContactMe = () => {
         questions or comments, Feel free to reach out to me anytime...
       </p>
       <br />
-      <div className=" contact-div flex-col gap-8 sm:flex-row justify-center ">
+      {/* <div className=" contact-div flex-col gap-8 sm:flex-row justify-center ">
         <Code
           color="default"
           size="lg"
@@ -53,11 +45,28 @@ export const ContactMe = () => {
         >
           Address: Andhra Pradesh, India
         </Code>
-      </div>
+      </div> */}
       <div className="contact-me-card">
         <div>
           <br />
-
+          <IconButton
+              color="primary"
+              href="tel:+9059875310"
+              target="_blank"
+              rel="noopener noreferrer"
+              size="x-large"
+            >
+              <Call />
+            </IconButton>
+            <IconButton
+              color="primary"
+              href="mailto:finneysolomon@yahoo.com"  // Replace example@example.com with your actual email address
+              target="_blank"
+              rel="noopener noreferrer"
+              size="large"
+            >
+              <Mail />
+            </IconButton>
           <IconButton
             color="primary"
             href={"https://www.linkedin.com/in/finney-solomon/"}

@@ -116,8 +116,8 @@
     margin: auto;
     color: rgb(255, 210, 167);
     justify-items: center;
-    font-size: 2.5em;
-    margin-top: 5vh;
+    font-size: 1.5em;
+    margin-top: 1vh;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
@@ -151,7 +151,18 @@
     justify-content: space-between;
     height: 500px;
   }
+
+
+  .cardFooter{
+    margin: auto;
+    justify-items: center;
+    justify-content: center;
+    font-size: 1em;
+    margin-top: 1vh;
+  }
 }
+
+
 
 /* /******************************************************************************* */
 /* For screens larger than 768px (e.g., laptops and desktops) */
@@ -183,7 +194,13 @@
   .homepage>* {
     padding: 10px;
   }
-
+ .cardFooter{
+    margin: auto;
+    justify-items: center;
+    justify-content: center;
+     font-size: 1em;
+    margin-top: 1vh;
+  }
   .wallpaper-container {
     background-size: cover;
     height: 50vh;
