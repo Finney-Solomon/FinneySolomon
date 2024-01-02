@@ -1,11 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import {
   Navbar,
-  Link,
-  NavbarItem,
-  NavbarMenuToggle,
-  NavbarMenu,
-  NavbarMenuItem,
   NavbarContent,
   NavbarBrand,
   Avatar,

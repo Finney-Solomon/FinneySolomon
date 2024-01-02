@@ -1,5 +1,5 @@
 import { IconButton } from "@mui/material";
-import React, { useState } from "react";
+import React from "react";
 import "./style.css";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";

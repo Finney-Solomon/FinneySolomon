@@ -1,9 +1,8 @@
 
 import React, { useEffect, useState } from "react";
 import "./style.css"; // Make sure you have the appropriate CSS file imported
-import mySkill from "../Json/skillsList";
 import { AccordionComponent } from "../components/Accordion";
-import { Tabs, TabsComponent } from "../components/Tabs";
+import {  TabsComponent } from "../components/Tabs";
 
 export const Skills = () => {
 
