@@ -4,6 +4,7 @@ import Typewriter from "typewriter-effect";
 import { IconButton } from '@mui/material';
 import { Facebook, GitHub, Instagram, LinkedIn, Mail } from '@mui/icons-material';
 import CallIcon from '@mui/icons-material/Call';
+import { Button } from '@nextui-org/react';
 export const HomePage = () => {
   const [open, setOpen] = useState(false);
 
@@ -13,6 +14,10 @@ export const HomePage = () => {
     }, 12000);
   }, [open]);
 
+  const handleDownload = () => {
+    const pdfUrl = process.env.PUBLIC_URL + "/FinneySolomonCV.pdf";
+    window.open(pdfUrl, '_blank');
+  };
   return (
     <div className="wallpaper-container">
       <div className="homepage">
@@ -33,6 +38,9 @@ export const HomePage = () => {
         </div>
         {open ? <div c className={`button-container ${open ? 'fade-in flex gap-2 items-center' : ''}`}>
           <div>
+            <Button color="primary"  onClick={handleDownload}>
+                Download CV
+            </Button>
             <IconButton
               color="primary"
               href="tel:+9059875310"
@@ -89,9 +97,12 @@ export const HomePage = () => {
             >
               <Facebook />
             </IconButton>
+
             <br />
+
             <br />
           </div>
+
         </div> : null}
       </div>
     </div>

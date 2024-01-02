@@ -22,8 +22,6 @@
         label: "TypeScript",
         photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png",
       },
-     
-     
       {
         label: "CSS",
         photo:  require("../images/skillsIcons/css-3.png"),
@@ -90,6 +88,10 @@
       {
         label: "JavaScript",
         photo:  require("../images/skillsIcons/js.png"),
+      },
+      {
+        label: "TypeScript",
+        photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png",
       },
     ],
   },
