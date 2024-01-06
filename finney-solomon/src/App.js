@@ -9,6 +9,7 @@ import { Header } from "./components/Header";
 import Aos from "aos";
 import "aos/dist/aos";
 import { Loading } from "./components/Loading";
+import { Projects } from "./Pages/Projects";
 
 function App() {
   const [timer, setTimer] = useState(0);
@@ -39,6 +40,7 @@ function App() {
         <HomePage />
         <AboutMe />
         <Skills />
+        <Projects/>
         <Certifications />
         <ContactMe /></>  }
      
