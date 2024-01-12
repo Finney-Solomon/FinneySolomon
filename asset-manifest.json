@@ -1,9 +1,13 @@
 {
   "files": {
-    "main.css": "/FinneySolomon/static/css/main.fc1d148d.css",
-    "main.js": "/FinneySolomon/static/js/main.28aa9d91.js",
+    "main.css": "/FinneySolomon/static/css/main.32bd1f16.css",
+    "main.js": "/FinneySolomon/static/js/main.a7bcb069.js",
     "static/js/787.a135b36d.chunk.js": "/FinneySolomon/static/js/787.a135b36d.chunk.js",
+    "static/media/singPraises.gif": "/FinneySolomon/static/media/singPraises.743fec2318a8f1e530d6.gif",
     "static/media/mainBackgroudImage.jpg": "/FinneySolomon/static/media/mainBackgroudImage.17c27016059707a9079f.jpg",
+    "static/media/Todo.gif": "/FinneySolomon/static/media/Todo.15bcc992c0542c281bab.gif",
+    "static/media/softwareEngineerInternCertificate.jpg": "/FinneySolomon/static/media/softwareEngineerInternCertificate.4e47fd489acd7e002114.jpg",
+    "static/media/react(Basic)Certificate.jpg": "/FinneySolomon/static/media/react(Basic)Certificate.1294bc38153a81cf3f2c.jpg",
     "static/media/restApi.png": "/FinneySolomon/static/media/restApi.c5618b6df35050c50c2e.png",
     "static/media/postgre.png": "/FinneySolomon/static/media/postgre.a7fa39912c91e079e90b.png",
     "static/media/postman.jpg": "/FinneySolomon/static/media/postman.e9e20e06ee3ceecd5249.jpg",
@@ -23,12 +27,12 @@
     "static/media/js.png": "/FinneySolomon/static/media/js.3dfb665e058d08c99f28.png",
     "static/media/web.png": "/FinneySolomon/static/media/web.2536a1c477020b5180b3.png",
     "index.html": "/FinneySolomon/index.html",
-    "main.fc1d148d.css.map": "/FinneySolomon/static/css/main.fc1d148d.css.map",
-    "main.28aa9d91.js.map": "/FinneySolomon/static/js/main.28aa9d91.js.map",
+    "main.32bd1f16.css.map": "/FinneySolomon/static/css/main.32bd1f16.css.map",
+    "main.a7bcb069.js.map": "/FinneySolomon/static/js/main.a7bcb069.js.map",
     "787.a135b36d.chunk.js.map": "/FinneySolomon/static/js/787.a135b36d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc1d148d.css",
-    "static/js/main.28aa9d91.js"
+    "static/css/main.32bd1f16.css",
+    "static/js/main.a7bcb069.js"
   ]
 }
